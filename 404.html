@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.o">
+
+
+        <meta
+        name="description"
+        content="404 page for Gaurab's personal portfolio."
+        >
+
+        <title>404 - Gaurab</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <main class="wrap" style="padding-top: 120px;">
+
+            <section>
+                <p class="eyebrow">ERROR 404</p>
+
+        <div
+              style="
+                border: 1px solid var(--line);
+                background: var(--bg-raised);
+                border-radius: var(--radius-md);
+                padding: 32px;
+              "
+
+              >
+            <p
+              style="
+              font-family: var(--font-mono);
+              color: var(--status);
+              margin-bottom: 18px;
+              "
+
+              >
+            gaurab@dev:~$ cd requested-page
+        </p>
+
+        <h1 style="font-size: clamp(3rem, 10vw, 6rem);">
+            404
+        </h1>
+
+        <h2 style="margin-top: 10px; margin-bottom: 16px;">
+            Page not Found
+        </h2>
+
+        <p
+          style="
+            color: var(--muted);
+            max-width: 55ch;
+            margin-bottom: 24px;
+            "
+
+        >
+        The page you're looking for doesn't seem to exist.
+        Maybe the link is wrong, or the page was moved somehere else.
+        </p>
+
+        <p
+        style="
+        font-family: var(--font-mono);
+        font-size: 0.85rem;
+        color: var(--muted);
+        margin-bottom: 28px;
+        "
+        >
+         gaurab@dev:~$ ls<br>
+         page_not_found
+        </p>
+
+        <a href="./" class="btn btn--primary">
+            Back to portfolio
+        </a>
+
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap site-footer__inner">
+
+            <p class="site-footer__copy">
+                © <span id="year"></span> Gaurab
+            </p>
+
+            <div class="site-footer__links">
+                <a href="./">Home</a>
+            </div>
+
+        </div>
+    </footer>
+    <script>
+        document.getElementById("year").textContent =
+        new Date().getFullYear();
+    </script>
+
+    
+    </body>
+</html>
